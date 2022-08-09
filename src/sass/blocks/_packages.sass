@@ -1,0 +1,133 @@
+.packages
+    padding: 70px 40px
+    &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 36px
+        line-height: 45px
+        text-align: center
+        text-transform: uppercase
+        margin-bottom: 65px
+    &__img
+        min-width: 366px
+        max-height: 500px
+        border-radius: 8px 0px 0px 8px
+        overflow: hidden
+    &-wrapper
+        display: grid
+    &__row
+        &-first
+            position: relative
+            display: flex
+            grid-column: span 2
+        &-second
+            position: relative
+            display: flex
+            grid-column: span 2
+    &__info
+        padding: 40px 20px 30px 40px
+        width: 364px
+        background-color: $dark
+        color: $light
+        border-radius: 0px 8px 8px 0px
+    &__heading
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 23px
+        margin-bottom: 13px
+    &__text
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 160.6%
+        margin-bottom: 34px
+    &-text
+        display: flex
+        align-items: center
+    &-textes
+        margin-bottom: 15px
+
+    &__description
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 15px
+        margin-left: 14px
+        margin-bottom: 11px
+    &__icon
+        margin-bottom: 11px
+    &__price
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+    &__button
+        min-width: 120px
+        min-height: 40px
+        font-style: normal
+        font-weight: 600
+        font-size: 14px
+        line-height: 19px
+        padding: 11px 10px
+        &:hover
+            filter: brightness(75%)
+    &__oldprice
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 18px
+        text-decoration: line-through
+
+    &__pricetag
+        font-style: normal
+        font-weight: bold
+        font-size: 24px
+        line-height: 30px
+
+    &__offer
+        position: absolute
+        width: 95px
+        top: 26px
+        left: 0
+        font-size: 12px
+        line-height: 15px
+        padding: 8px 11px
+        background-color: #EC1F46
+        border-radius: 4px
+        color: #ffff
+    &__item
+        position: relative
+        margin-left: 30px
+        width: 350px
+        max-height: 500px
+        background-color: $dark
+        color: $light
+        border-radius: 8px
+
+        &-second-row
+            margin-top: 30px
+            margin-left: 0px
+            margin-right: 30px
+            grid-column: span 2
+        &-second
+            display: flex
+        &-content
+            padding: 25px 21px 25px 32px
+        &__heading
+            margin-bottom: 23px
+            display: block
+        &__offer
+            width: 60px
+            top: 26px
+            left: 0
+            font-size: 8px
+            line-height: 10px
+            padding: 4px 10px
+        &__textes
+            margin-bottom: 15px
+    &__image
+        width: 100%
+        height: 250px
+        overflow: hidden
+        object-fit: cover

@@ -1,0 +1,149 @@
+.footer
+    background-color: $dark
+    color: $light
+    padding-top: 108px
+    padding-bottom: 46px
+    &-wrapper
+        display: grid
+        grid-template-columns: repeat(4, minmax(min-content, 1fr))
+        grid-gap: 20px
+        grid-auto-rows: minmax(40px, min-content)
+        align-items: flex-start
+    &__logo
+        width: 166px
+        grid-row: 1 / 3
+        margin-top: 13px
+        
+    &__legal
+        margin-left: auto
+    &__categories
+        grid-row: 1 / 4 
+    &__social
+        &-links            
+            display: flex
+            align-items: center
+            min-width: 83px
+            justify-content: space-between
+        &-network
+            display: flex
+            align-items: flex-start
+            grid-row: 2 / 4 
+            grid-column: span 2
+    &__contact
+        &-details
+            grid-column-start: span 2
+        &-form
+            grid-column: span 2
+    &__form
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+    &__ul
+        padding: 0
+        margin: 0
+        list-style: none
+    &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 23px
+        margin-top: 0
+        margin-bottom: 16px
+        text-transform: uppercase
+        &--inline
+            margin-bottom: 0
+            margin-right: 43px
+        &--mb-3
+            margin-bottom: 34px
+    &__item
+        display: flex
+        align-items: flex-start
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 160%
+        color: $footer-text-color
+        &--mb-2
+            margin-bottom: 26px
+    &__icon
+        &-wrapper
+            min-width: 40px
+    &__text
+        color: $footer-text-color
+    &__link
+        text-decoration: none
+        color: inherit
+        &:hover
+            text-decoration: underline
+            filter: brightness(75%)
+        &-img
+            &:hover
+                filter: brightness(75%)
+    &__input
+        width: 100%
+        &-group
+        
+            margin-bottom: 15px
+            flex-basis: 48%
+            font-style: normal
+            font-weight: normal
+            font-size: 12px
+            line-height: 15px
+            color: $dark
+            outline: none 
+    &__message
+        resize: none
+        flex-basis: 100%
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 15px
+        color: $dark
+        margin-bottom: 23px
+        outline: none 
+
+    &__button
+        outline: none        
+        cursor: pointer 
+        &:hover
+            background-color: $primary-hover
+    &__info
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        line-height: 15px
+        color: #E0E0E0
+    &-bottom
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        margin-top: 95px    
+        &__list
+            margin-right: 277px
+        &__ul
+            display: flex
+            padding: 0
+            margin: 0
+            list-style: none
+
+        &__item
+            display: flex
+            align-items: flex-start
+            margin-right: 11px
+            font-style: normal
+            font-weight: normal
+            font-size: 12px
+            line-height: 15px
+            color: $light
+        &__link
+            text-decoration: none
+            color: inherit
+            &:hover
+                text-decoration: underline
+                filter: brightness(50%)
+    &__contact
+        text-decoration: none
+        color: inherit
+        &:hover
+            filter: brightness(75%)        
